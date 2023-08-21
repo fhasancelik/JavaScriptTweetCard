@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yeni Tweet</title>
+    <!--Fontawesome Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Still Dosyası-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--En dışta card ı sarmayaln sarmalayıcımız -->
+
+    <div class="wrapper">
+      <!--Tweet yazma ve gizlik barı -->
+      <div class="input-box">
+        <!--Input Girişi Olduğu Kısım-->
+        <div class="tweet-area">
+          <span class="placeholder">Neler Oluyor</span>
+          <div
+            class="input editable"
+            contenteditable="true"
+            spellcheck="false"
+          ></div>
+          <div
+            class="input readonly"
+            contenteditable="true"
+            spellcheck="false"
+          ></div>
+        </div>
+        <!--Input Girişi Olduğu Kısım-->
+
+        <!--Gizlilik Ayarının Olduğu Kısım-->
+        <div class="privacy">
+          <i class="fa-solid fa-earth-americas"></i>
+          <span>Herkes Cevablayabilir</span>
+        </div>
+        <!--Gizlilik Ayarının Olduğu Kısım-->
+      </div>
+      <!--Tweet yazma ve gizlik barı -->
+
+      <!--Iconlar ve tweet butonun olduğu alt kısım-->
+      <div class="bottom">
+        <!--Icon Barı-->
+
+        <ul class="icons">
+          <li contenteditable="true">
+            <i class="fa-regular fa-file-image"></i>
+          </li>
+          <li><i class="fa-solid fa-location-dot"></i></li>
+          <li><i class="fa-regular fa-face-smile"></i></li>
+          <li><i class="fa-regular fa-user"></i></li>
+        </ul>
+        <!--Icon Barı-->
+
+        <!--Button ve Sayaç Alanı-->
+        <div class="content">
+          <span class="counter">5</span>
+          <button class="button">Tweet</button>
+        </div>
+        <!--Button ve Sayaç Alanı-->
+      </div>
+
+      <!--Iconlar ve tweet butonun olduğu alt kısım-->
+    </div>
+<div class="tweets-container">
+
+</div>
+
+    <!--En dışta card ı sarmayaln sarmalayıcımız -->
+
+    <!--Script-->
+
+    <script src="main.js"></script>
+  </body>
+</html>

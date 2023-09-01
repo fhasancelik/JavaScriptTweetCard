@@ -1,3 +1,4 @@
+![ezgif com-video-to-gif](https://github.com/fhasancelik/JavaScriptTweetCard/assets/123208180/af86dede-a203-4342-9249-c3324f9797e5)
 Yapılacaklar Listesi;
 
 1-Tasarımın incelenmesi ve gerekli çıkarımların yapılıp tsarmın tammalanması (tamamlandı)

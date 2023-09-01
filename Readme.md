@@ -20,3 +20,4 @@ Yapılacaklar Listesi;
 8-limit geçtiğinde sayaçın renginin kırmızya dönmesi(tamlandı)
 9-limit geçildiğinde tweet butonun pasif hale gelmesi(tamamlandı)
 10-fazla olan karakterlerin arka plan reninin kırmızı olması (tamalnadı)# 5HSTwitterCardJavaScript
+# JavaScriptTweetCard
